@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Login with Firebase</title>
+    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js"></script>
+</head>
+<body>
+    <h2>Phone Authentication</h2>
+    
+    <label>Enter Phone Number (with country code):</label>
+    <input type="text" id="phone" placeholder="+91XXXXXXXXXX">
+    <button onclick="sendOTP()">Send OTP</button>
+
+    <div id="recaptcha-container"></div>
+
+    <label>Enter OTP:</label>
+    <input type="text" id="otp">
+    <button onclick="verifyOTP()">Verify OTP</button>
+
+    <p id="status"></p>
+
+    <script>
+        // Firebase Configuration (Replace with your credentials)
+        const firebaseConfig = {
+            apiKey: "AIzaSyBXrGkcVQtuwicsJGT2zlRmPl6DVuKhRcQ",
+            authDomain: "orek-otp.firebaseapp.com",
+            projectId: "orek-otp",
+            storageBucket: "orek-otp.firebasestorage.app",
+            messagingSenderId: "906876723638",
+            appId: "1:906876723638:web:9dea143ce11766a64a2117"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        // Recaptcha Verifier
+        function setupRecaptcha() {
+            window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier("recaptcha-container", {
+                size: "invisible"
+            });
+        }
+
+        function sendOTP() {
+            setupRecaptcha();
+            var phoneNumber = document.getElementById("phone").value;
+            
+            if (!phoneNumber.startsWith("+")) {
+                document.getElementById("status").innerHTML = "Please enter a valid phone number with country code.";
+                return;
+            }
+
+            firebase.auth().signInWithPhoneNumber(phoneNumber, window.recaptchaVerifier)
+                .then((confirmationResult) => {
+                    window.confirmationResult = confirmationResult;
+                    document.getElementById("status").innerHTML = "OTP Sent Successfully!";
+                })
+                .catch((error) => {
+                    document.getElementById("status").innerHTML = "Error sending OTP: " + error.message;
+                });
+        }
+
+        function verifyOTP() {
+            var otp = document.getElementById("otp").value;
+            if (!otp) {
+                document.getElementById("status").innerHTML = "Please enter the OTP.";
+                return;
+            }
+
+            window.confirmationResult.confirm(otp)
+                .then((result) => {
+                    var user = result.user;
+                    document.getElementById("status").innerHTML = "OTP Verified Successfully! User: " + user.phoneNumber;
+                })
+                .catch((error) => {
+                    document.getElementById("status").innerHTML = "Invalid OTP: " + error.message;
+                });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<?php include "sitemap_generator.php"; ?>

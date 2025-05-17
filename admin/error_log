@@ -1,0 +1,57 @@
+[03-Aug-2023 16:43:39 UTC] PHP Warning:  Undefined array key "uname" in /home1/elektpsk/public_html/admin/session.php on line 14
+[03-Aug-2023 16:43:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/session.php on line 19
+[03-Aug-2023 16:43:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/category.php on line 26
+[03-Aug-2023 16:47:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/sub-heading.php on line 57
+[03-Aug-2023 16:47:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/sub-heading.php on line 58
+[03-Aug-2023 16:47:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/sub-heading.php on line 59
+[03-Aug-2023 16:47:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/sub-heading.php on line 60
+[03-Aug-2023 16:47:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/sub-heading.php on line 60
+[03-Aug-2023 16:47:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/sub-heading.php on line 61
+[03-Aug-2023 16:47:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/sub-heading.php on line 61
+[03-Aug-2023 16:49:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 442
+[03-Aug-2023 16:49:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 443
+[03-Aug-2023 16:49:27 UTC] PHP Warning:  Undefined variable $row_Recordset5 in /home1/elektpsk/public_html/admin/add-item.php on line 501
+[03-Aug-2023 16:49:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 501
+[03-Aug-2023 16:49:27 UTC] PHP Warning:  Undefined variable $row_Recordset5 in /home1/elektpsk/public_html/admin/add-item.php on line 502
+[03-Aug-2023 16:49:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 502
+[03-Aug-2023 16:49:27 UTC] PHP Warning:  Undefined variable $row_Recordset5 in /home1/elektpsk/public_html/admin/add-item.php on line 503
+[03-Aug-2023 16:49:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 503
+[03-Aug-2023 16:49:27 UTC] PHP Warning:  Undefined variable $row_Recordset5 in /home1/elektpsk/public_html/admin/add-item.php on line 504
+[03-Aug-2023 16:49:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 504
+[03-Aug-2023 16:49:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 442
+[03-Aug-2023 16:49:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 443
+[03-Aug-2023 16:49:47 UTC] PHP Warning:  Undefined variable $row_Recordset2 in /home1/elektpsk/public_html/admin/add-item.php on line 452
+[03-Aug-2023 16:49:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 452
+[03-Aug-2023 16:49:47 UTC] PHP Warning:  Undefined variable $row_Recordset2 in /home1/elektpsk/public_html/admin/add-item.php on line 461
+[03-Aug-2023 16:49:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 461
+[03-Aug-2023 16:50:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 442
+[03-Aug-2023 16:50:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 443
+[03-Aug-2023 16:50:12 UTC] PHP Warning:  Undefined variable $row_Recordset5 in /home1/elektpsk/public_html/admin/add-item.php on line 501
+[03-Aug-2023 16:50:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 501
+[03-Aug-2023 16:50:12 UTC] PHP Warning:  Undefined variable $row_Recordset5 in /home1/elektpsk/public_html/admin/add-item.php on line 502
+[03-Aug-2023 16:50:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 502
+[03-Aug-2023 16:50:12 UTC] PHP Warning:  Undefined variable $row_Recordset5 in /home1/elektpsk/public_html/admin/add-item.php on line 503
+[03-Aug-2023 16:50:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 503
+[03-Aug-2023 16:50:12 UTC] PHP Warning:  Undefined variable $row_Recordset5 in /home1/elektpsk/public_html/admin/add-item.php on line 504
+[03-Aug-2023 16:50:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 504
+[03-Aug-2023 16:50:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 442
+[03-Aug-2023 16:50:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 443
+[03-Aug-2023 16:50:40 UTC] PHP Warning:  Undefined variable $row_Recordset2 in /home1/elektpsk/public_html/admin/add-item.php on line 452
+[03-Aug-2023 16:50:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 452
+[03-Aug-2023 16:50:40 UTC] PHP Warning:  Undefined variable $row_Recordset2 in /home1/elektpsk/public_html/admin/add-item.php on line 461
+[03-Aug-2023 16:50:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 461
+[03-Aug-2023 16:52:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 442
+[03-Aug-2023 16:52:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 443
+[03-Aug-2023 16:52:03 UTC] PHP Warning:  Undefined variable $row_Recordset2 in /home1/elektpsk/public_html/admin/add-item.php on line 452
+[03-Aug-2023 16:52:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 452
+[03-Aug-2023 16:52:03 UTC] PHP Warning:  Undefined variable $row_Recordset2 in /home1/elektpsk/public_html/admin/add-item.php on line 461
+[03-Aug-2023 16:52:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 461
+[03-Aug-2023 16:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 442
+[03-Aug-2023 16:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 443
+[03-Aug-2023 16:52:27 UTC] PHP Warning:  Undefined variable $row_Recordset2 in /home1/elektpsk/public_html/admin/add-item.php on line 452
+[03-Aug-2023 16:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 452
+[03-Aug-2023 16:52:27 UTC] PHP Warning:  Undefined variable $row_Recordset2 in /home1/elektpsk/public_html/admin/add-item.php on line 461
+[03-Aug-2023 16:52:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/add-item.php on line 461
+[04-Aug-2023 06:02:50 UTC] PHP Warning:  Undefined array key "uname" in /home1/elektpsk/public_html/admin/session.php on line 14
+[04-Aug-2023 06:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/session.php on line 19
+[04-Aug-2023 06:02:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home1/elektpsk/public_html/admin/item.php on line 27
